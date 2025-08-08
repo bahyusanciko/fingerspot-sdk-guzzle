@@ -1,0 +1,15 @@
+{
+  "name": "fingerspot/sdk",
+  "description": "A PHP SDK for communicating with Fingerspot attendance devices using EasyLink SDK protocol. Supports user management, scanlog retrieval, admin access control, and device initialization via Guzzle HTTP Client.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Fingerspot\\SDK\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4",
+    "guzzlehttp/guzzle": "^7.0"
+  }
+}
